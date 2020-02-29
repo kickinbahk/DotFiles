@@ -19,7 +19,7 @@ precmd() {
 }
 
 # Format the vcs_info_msg_0_ variable
-zstyle ':vcs_info:git:*' formats '%F{175}(%b)%u'
+zstyle ':vcs_info:git:*' formats '%F{175}(%b)'
 
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
