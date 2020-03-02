@@ -4,6 +4,7 @@ export NVM_DIR=~/.nvm
 # Editors
 export EDITOR="nvim"
 export VISUAL="nvim"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 autoload -Uz compinit && compinit
 
@@ -28,3 +29,5 @@ zstyle ':vcs_info:git:*' formats '%F{175}(%b)'
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
 PROMPT='%F{171}%n:%F{45}[%2~]%B${vcs_info_msg_0_}%b %F{118}==> %F{256}'
+
+
