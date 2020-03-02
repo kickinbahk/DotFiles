@@ -1,6 +1,10 @@
 export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
+# Editors
+export EDITOR="nvim"
+export VISUAL="nvim"
+
 autoload -Uz compinit && compinit
 
 # case insensitive path-completion
