@@ -1,0 +1,20 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Josiah Mory
+	email = kickinbahk 
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+[alias]
+  s = status
+  aa = add .
+  d = diff
+  c = commit
+  cm = commit -m
+  co = checkout
+  br = branch
+  last = log -1 HEAD
+  cane = commit --amend --no-edit
+  lo = log --oneline -n 10
+  pr = pull --rebase
