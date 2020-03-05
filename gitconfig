@@ -5,7 +5,8 @@
 	email = kickinbahk 
 [core]
 	autocrlf = input
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore
+	safecrlf = false
 [alias]
   s = status
   aa = add .
