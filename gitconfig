@@ -2,7 +2,7 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Josiah Mory
-	email = kickinbahk 
+	email = kickinbahk@gmail.com 
 [core]
 	autocrlf = input
 	excludesfile = ~/.gitignore
