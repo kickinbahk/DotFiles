@@ -30,4 +30,7 @@ zstyle ':vcs_info:git:*' formats '%F{175}(%b)'
 setopt PROMPT_SUBST
 PROMPT='%F{171}%n:%F{45}[%2~]%B${vcs_info_msg_0_}%b %F{118}==> %F{256}'
 
+PSQL_PATH="/Applications/Postgres.app/Contents/Versions/latest/bin"
+PATH="$PATH:$PSQL_PATH"
 
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

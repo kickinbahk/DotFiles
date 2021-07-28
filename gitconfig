@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-	name = Josiah Mory
-	email = kickinbahk@gmail.com 
+	name = kickinbahk
+	email = kickinbahk@gmail.com
 [core]
 	autocrlf = input
 	excludesfile = ~/.gitignore
@@ -10,7 +10,7 @@
 [alias]
   s = status
   aa = add .
-  d = diff
+  d = diff -w
   c = commit
   cm = commit -m
   co = checkout
@@ -19,3 +19,8 @@
   cane = commit --amend --no-edit
   lo = log --oneline -n 10
   pr = pull --rebase
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
